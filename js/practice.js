@@ -7,7 +7,7 @@ document.getElementById('double-btn').addEventListener('click', function () {
 
     if (inputFieldNumber > 0) {
         const multiply = inputFieldNumber * 2;
-        console.log(multiply);
+        document.getElementById('p').innerText = multiply;
     }
     else {
         alert('please enter a number')
@@ -21,7 +21,7 @@ document.getElementById('triple-btn').addEventListener('click', function () {
     const inputFieldNumber = parseFloat(inputFieldText)
     if (inputFieldNumber > 0) {
         const multiply = inputFieldNumber * 3;
-        console.log(multiply);
+        document.getElementById('p').innerText = multiply;
     }
     else {
         alert('please enter a number')
